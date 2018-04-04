@@ -3,6 +3,6 @@ module ArtistsHelper
     if artist.song != nil
       link_to "#{artist.name}", artist
     else
-      link_to "Add Artist", 'song/edit'
+      link_to "Add Artist", 'songs/edit'
   end
 end
